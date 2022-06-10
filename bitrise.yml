@@ -71,3 +71,7 @@ app:
   - opts:
       is_expand: false
     BITRISE_DISTRIBUTION_METHOD: ad-hoc
+trigger_map:
+- pull_request_source_branch: '*'
+  pull_request_target_branch: main
+  workflow: primary
