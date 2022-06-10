@@ -8,6 +8,7 @@ import qBittorrent
 import SwiftUI
 import KeychainSwift
 
+
 class MainResolver {
     #if DEBUG
     static var shared = MainResolver()
