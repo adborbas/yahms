@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "354dda32d89fc8cd4f5c46487f64957d355f53d8",
+        "version" : "5.6.1"
+      }
+    },
+    {
+      "identity" : "keychain-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/evgenyneu/keychain-swift.git",
+      "state" : {
+        "revision" : "d108a1fa6189e661f91560548ef48651ed8d93b9",
+        "version" : "20.0.0"
+      }
+    },
+    {
+      "identity" : "qbittorrentkt",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adborbas/qBittorrentKt.git",
+      "state" : {
+        "revision" : "42d09b1637938e38ce80245c4428a80c275466bc",
+        "version" : "0.1.3"
+      }
+    }
+  ],
+  "version" : 2
+}

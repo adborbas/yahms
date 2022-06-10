@@ -1,0 +1,113 @@
+/* 
+  Localizable.strings
+  yahms
+*/
+
+// MARK: - Int64+speedString
+"zero_speed_text" = "0 B/s";
+"speed_per_second_text" = "%@/s";
+
+// MARK: - Int+etaString
+"infinity_sign" = "∞";
+
+// MARK: - Torrent states
+// Generic
+"torrent_state_error" = "Errored";
+"torrent_state_missingFiles" = "Missing Files";
+"torrent_state_checkingResumeData" = "Checking Resume Data";
+"torrent_state_moving" = "Moving";
+"torrent_state_unknown" = "Unknown";
+
+// Uploading
+"torrent_state_uploading" = "Seeding";
+"torrent_state_pausedUP" = "Paused";
+"torrent_state_queuedUP" = "Queued";
+"torrent_state_stalledUP" = "Seeding";
+"torrent_state_checkingUP" = "Checking";
+"torrent_state_forcedUP" = "[F] Seeding";
+
+// Downloading
+"torrent_state_allocating" = "Allocating";
+"torrent_state_downloading" = "Downloading";
+"torrent_state_metaDL" = "Downloading";
+"torrent_state_pausedDL" = "Paused";
+"torrent_state_queuedDL" = "Queued";
+"torrent_state_stalledDL" = "Stalled";
+"torrent_state_checkingDL" = "Checking";
+"torrent_state_forcedDL" = "[F] Downloading";
+
+// MARK: - TorrentSortProperties
+"sort_property_name" = "Name";
+"sort_property_size" = "Size";
+"sort_property_date_added" = "Date Added";
+"sort_property_priority" = "Priority";
+
+// MARK: - AddTorrentView
+"add_torrent_title" = "Add Torrent";
+"add_torrent_torrent_section_title" = "Torrent";
+"add_torrent_auto_management_toggle" = "Auto management";
+"add_torrent_category_picker" = "Category";
+"add_torrent_management_section_title" = "Management";
+"add_torrent_text" = "Location";
+"add_torrent_seq_download_toggle" = "Sequential Download";
+"add_torrent_first_last_prio_toggle" = "First Last Piece Prio";
+"add_torrent_start_torrent_toggle" = "Start Torrent";
+"add_torrent_properties_section_title" = "Properties";
+"add_torrent_select_torrent_button" = "Select";
+
+// MARK: - TorrentListView
+"torrent_list_title" = "Torrents";
+
+// MARK: - TorrentDetailView
+"torrent_detail_title" = "Detail";
+"torrent_detail_section_content_title" = "Files";
+"torrent_detail_content_navigation_link" = "Content";
+"torrent_detail_section_general_title" = "General";
+"torrent_detail_state_title" = "State";
+"torrent_detail_size_title" = "Size";
+"torrent_detail_remaining" = "Remaining";
+"torrent_detail_eta" = "ETA";
+"torrent_detail_date_added" = "Date Added";
+"torrent_detail_section_management_title" = "Management";
+"torrent_detail_category" = "Category";
+"torrent_detail_location" = "Location";
+"torrent_detail_section_connection_title" = "Connection";
+"torrent_detail_seeds" = "Seeds";
+"torrent_detail_peers" = "Peers";
+"torrent_detail_download_avg" = "Download avg.";
+"torrent_detail_upload_avg" = "Upload avg.";
+"torrent_detail_menu_actions" = "Actions";
+
+// MARK: - TorrentContent
+"torrent_content_root_dir_name" = "Contents";
+"torrent_content_priority_mixed" = "Mixed";
+"torrent_content_priority_skip" = "Skip";
+"torrent_content_priority_normal" = "Normal";
+"torrent_content_priority_high" = "High";
+"torrent_content_priority_maximum" = "Maximum";
+"torrent_content_total_remaining_text" = "%@ of %@";
+
+// MARK: - HostList
+"host_list_title" = "Hosts";
+
+// MARK: - Add Host
+"add_host_title" = "Add Host";
+"edit_host_title" = "Edit Host";
+"add_host_section_address" = "Address";
+"add_host_scheme_picker" = "Scheme";
+"add_host_server" = "Server";
+"add_host_port" = "Port";
+"add_host_section_authentication" = "Authentication";
+"add_host_username" = "Username";
+"add_host_password" = "Password";
+"add_host_section_customisation" = "Customisation";
+"add_host_name" = "Name";
+"add_host_icon" = "Icon";
+
+// MARK: - General
+"cancel_button" = "Cancel";
+"add_button" = "Add";
+"sort_by_text" = "Sort By";
+"delete_button" = "Delete";
+"edit_button" = "Edit";
+"done_button" = "Done";
