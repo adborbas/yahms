@@ -35,3 +35,9 @@ Handle torrents for multiple qBittorrent hosts.
 1. Clone repo.
 1. Open `yahms.xcworkspace`.
 1. Build and run.
+
+## Dependencies
+
+- [Alamofire](https://github.com/Alamofire/Alamofire)
+- [KeychainSwift](https://github.com/evgenyneu/keychain-swift)
+- [qBittorrentKit](https://github.com/adborbas/qBittorrentKit)
