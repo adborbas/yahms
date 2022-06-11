@@ -3,37 +3,6 @@ format_version: '11'
 default_step_lib_source: 'https://github.com/bitrise-io/bitrise-steplib.git'
 project_type: ios
 workflows:
-  deploy:
-    description: >
-      The workflow tests, builds and deploys the app using *Deploy to
-      bitrise.io* step.
-
-
-      For testing the *retry_on_failure* test repetition mode is enabled.
-
-
-      Next steps:
-
-      - Set up [Connecting to an Apple service with API
-      key](https://devcenter.bitrise.io/en/accounts/connecting-to-services/connecting-to-an-apple-service-with-api-key.html##).
-
-      - Or further customise code signing following our [iOS code
-      signing](https://devcenter.bitrise.io/en/code-signing/ios-code-signing.html)
-      guide.
-    steps:
-    - git-clone@6: {}
-    - cache-pull@2: {}
-    - recreate-user-schemes@1:
-        inputs:
-        - project_path: $BITRISE_PROJECT_PATH
-    - xcode-archive@4:
-        inputs:
-        - project_path: $BITRISE_PROJECT_PATH
-        - scheme: $BITRISE_SCHEME
-        - distribution_method: $BITRISE_DISTRIBUTION_METHOD
-        - automatic_code_signing: api-key
-    - cache-push@2: {}
-    - deploy-to-bitrise-io@2: {}
   primary:
     description: >
       The workflow only builds the project because the project scanner could not
@@ -72,6 +41,8 @@ app:
       is_expand: false
     BITRISE_DISTRIBUTION_METHOD: ad-hoc
 trigger_map:
+- push_branch: main
+  workflow: primary
 - pull_request_source_branch: '*'
   pull_request_target_branch: main
   workflow: primary
